@@ -1,0 +1,39 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  box-shadow: var(--box-shadow-color);
+}
+
+.bg__left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--nav-height);
+  width: 50%;
+  background: var(--primary-color);
+  z-index: -1;
+}
+
+.bg__right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: var(--nav-height);
+  width: 50%;
+  background: var(--fourth-color);
+  z-index: -1;
+}
+
+.middle {
+  position: relative;
+  height: var(--nav-height);
+  max-width: 600px;
+  background-color: var(--sixth-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
