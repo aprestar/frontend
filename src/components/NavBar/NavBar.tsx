@@ -1,14 +1,11 @@
 import "./NavBar.css";
+import logoSvg from "../../assets/logo.svg";
 
 export const NavBar = () => {
   return (
     <nav className="navbar">
       <a className="logo__container" href="/">
-        <img
-          src="./src/assets/logo.svg"
-          alt="Logo aprestar"
-          className="logo__image"
-        />
+        <img src={logoSvg} alt="Logo aprestar" className="logo__image" />
         <h1 className="logo__title">Aprestar</h1>
       </a>
       <ul className="nav__list">
