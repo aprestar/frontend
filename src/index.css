@@ -5,8 +5,10 @@
   --tertiary-color: #83ad03;
   --fourth-color: #fcffe5;
   --sixth-color: #ffae71;
+  --seventh-color: #ed4409;
   --box-shadow-color: 0 2px 8px rgba(0, 0, 0, 0.1);
   --font: Inter, sans-serif;
+  --nav-height: 72px;
 }
 * {
   margin: 0;
